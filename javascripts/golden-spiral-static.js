@@ -15,7 +15,7 @@ Ext.setup({
           height: dimensions[1],
           cls: 'panel-2',
           dockedItems: [{
-            dock: 'bottom',
+            dock: 'top',
             width: dimensions[2],
             height: dimensions[3],
             cls: 'panel-3',
@@ -25,7 +25,7 @@ Ext.setup({
               height: dimensions[3],
               cls: 'panel-4',
               dockedItems: [{
-                dock: 'top',
+                dock: 'bottom',
                 width: dimensions[4],
                 height: dimensions[5],
                 cls: 'panel-5',

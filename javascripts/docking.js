@@ -6,7 +6,7 @@ Ext.setup({
         {
           html: "A docked panel",
           style: "background-color: #ccc;",
-          dock: "left"
+          dock: "bottom"
         }
       ],
       items: []

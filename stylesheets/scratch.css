@@ -10,7 +10,7 @@
 .panel-9  { background-color: #666;}
 .panel-10 { background-color: #555;}
 
-.panel-1, .panel-5, .panel-9  { border-top-left-radius:     1200px; }
-.panel-2, .panel-6, .panel-10 { border-top-right-radius:    1200px; }
-.panel-3, .panel-7, .panel-11 { border-bottom-right-radius: 1200px; }
-.panel-4, .panel-8, .panel-12 { border-bottom-left-radius:  1200px; }
+.panel-1, .panel-5, .panel-9  { border-bottom-left-radius:  1200px; }
+.panel-2, .panel-6, .panel-10 { border-bottom-right-radius: 1200px; }
+.panel-3, .panel-7, .panel-11 { border-top-right-radius:    1200px; }
+.panel-4, .panel-8, .panel-12 { border-top-left-radius:     1200px; }
