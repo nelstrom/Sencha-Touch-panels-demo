@@ -1,7 +1,5 @@
 This Git repository includes all of the source code used in creating a tutorial about [panels in Sencha Touch][tutorial].
 
-<object width="800" height="600"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=15879797&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=15879797&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="800" height="600"></embed></object>
-
 Each of the links below represents a snapshot of the code at a point in the video (timestamps are in brackets). You'll find instructions below on how to check out each snapshot from this git repository.
 
 * [Blank slate][00] (0:55)
