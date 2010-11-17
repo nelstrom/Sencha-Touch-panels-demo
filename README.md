@@ -4,6 +4,8 @@ Checkpoints and assets:
 
 * [Blank slate](https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/00_blank_slate) (0:55)
 
+#01
+
 * Items and DockedItems (1:12)
 * Docked item: default (1:29)
 * Docked item: top (1:47)
@@ -12,12 +14,18 @@ Checkpoints and assets:
 * 2 Docked items: bottom/right (2:28)
 * 2 Docked items: bottom/right (2:38)
 
+#02
+
 * Panel with dimensions (3:05)
 * Nested: right (3:15)
 * Nested: right/top (3:37)
 * 6*Nested (3:50)
 * 6*Nested + bevel (4:16)
+
+#03
 * Generated spiral (4:55)
+
+#04
 * Toolbar (5:25)
 
 ## Dynamically updated dockedItems list
