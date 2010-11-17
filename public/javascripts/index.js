@@ -1,45 +1,28 @@
+var rootPanel,
+    innerPanels = [],
+    dimensions = [340,210,130,80,50,30,20,10],
+    cycleEdges = ['bottom', 'right', 'top', 'left', ];
+
+// Create the panels
+for (var i=0; i <= dimensions.length; i++) {
+  innerPanels[i] = new Ext.Panel({
+    width:  dimensions[ ( i%2 === 0) ? i : i+1 ],
+    height: dimensions[ ( i%2 !== 0) ? i : i+1 ],
+    dock:   cycleEdges[ i % cycleEdges.length ],
+    cls:    "panel-" + (i+1)
+  });
+}
+
+// Dock each panel inside predecessor (Russian dolls!)
+for (var i=0; i < dimensions.length; i++) {
+  innerPanels[i].addDocked(innerPanels[i+1]);
+}
+
 Ext.setup({
   onReady: function() {
-
-    var dimensions = [340,210,130,80,50,30,20,10];
-    
-    new Ext.Panel({
+    rootPanel = new Ext.Panel({
       fullscreen: true,
-      items: [{
-        width: dimensions[0],
-        height: dimensions[1],
-        cls: 'panel-1',
-        dockedItems: [{
-          dock: 'right',
-          width: dimensions[2],
-          height: dimensions[1],
-          cls: 'panel-2',
-          dockedItems: [{
-            dock: 'top',
-            width: dimensions[2],
-            height: dimensions[3],
-            cls: 'panel-3',
-            dockedItems: [{
-              dock: 'left',
-              width: dimensions[4],
-              height: dimensions[3],
-              cls: 'panel-4',
-              dockedItems: [{
-                dock: 'bottom',
-                width: dimensions[4],
-                height: dimensions[5],
-                cls: 'panel-5',
-                dockedItems: [{
-                  dock: 'right',
-                  width: dimensions[6],
-                  height: dimensions[5],
-                  cls: 'panel-6'
-                }]
-              }]
-            }]
-          }]
-        }]
-      }]
+      items: [innerPanels[0]]
     });
   }
 });
