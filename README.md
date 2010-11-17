@@ -2,7 +2,7 @@ This Git repository includes all of the source code used in creating a tutorial 
 
 Checkpoints and assets:
 
-* Blank slate (0:55)
+* [Blank slate](https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/00_blank_slate) (0:55)
 
 * Items and DockedItems (1:12)
 * Docked item: default (1:29)
