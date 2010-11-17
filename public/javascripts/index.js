@@ -9,6 +9,11 @@ Ext.setup({
                 dock: "top",
                 html: "A docked item",
                 style: "background-color: #fcc;"
+            },
+            {
+                dock: "top",
+                html: "Another docked item",
+                style: "background-color: #caa;"
             }
           ]
       })
