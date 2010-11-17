@@ -70,9 +70,9 @@ You can review the list of local branches by running:
 
     git branches
 
-And you can switch between branches with the checkout command. For example, to check out the `03_capture_more_interactions` branch, run:
+And you can switch between branches with the checkout command. For example, to check out the `03_generated_golden_spiral` branch, run:
 
-    git co 03_capture_more_interactions
+    git co 03_generated_golden_spiral
 
 
 [tutorial]: http://vimeo.com/15879797
