@@ -1,6 +1,6 @@
 This Git repository includes all of the source code used in creating a tutorial about [panels in Sencha Touch][tutorial].
 
-Checkpoints and assets:
+Each of the links below represents a snapshot of the code at a point in the video (timestamps are in brackets). You'll find instructions below on how to check out each snapshot from this git repository.
 
 * [Blank slate][00] (0:55)
 
@@ -38,6 +38,42 @@ Link to API documentation for methods:
 * [removeDocked()][rm]
 
 <img src="https://github.com/nelstrom/Sencha-Touch-panels-demo/raw/master/assets/Panel-subclasses.png" width="900"/>
+
+## Using this repository to follow the screencast
+
+First, you'll have to clone this repository:
+
+    git clone git://github.com/nelstrom/Sencha-Touch-panels-demo.git
+
+Change into the directory:
+
+    cd Sencha-Touch-panels-demo
+
+By default, the git clone command will only create the master branch locally. If you want to study the code at each checkpoint, you will have to fetch each of the other branches. You can do so by running the following:
+
+    git checkout -b 00_blank_slate
+    git checkout -b 01a_docked_items
+    git checkout -b 01b_docked_items
+    git checkout -b 01c_docked_items
+    git checkout -b 01d_docked_items
+    git checkout -b 01e_docked_items
+    git checkout -b 01f_docked_items
+    git checkout -b 02a_nesting_docked_items
+    git checkout -b 02b_nesting_docked_items
+    git checkout -b 02c_nesting_docked_items
+    git checkout -b 02d_nesting_docked_items
+    git checkout -b 02e_nesting_docked_items
+    git checkout -b 03_generated_golden_spiral
+    git checkout -b 04_docked_toolbar
+
+You can review the list of local branches by running:
+
+    git branches
+
+And you can switch between branches with the checkout command. For example, to check out the `03_capture_more_interactions` branch, run:
+
+    git co 03_capture_more_interactions
+
 
 [tutorial]: http://vimeo.com/15879797
 [add]: http://dev.sencha.com/deploy/touch/docs/?class=Ext.Panel&member=addDocked
