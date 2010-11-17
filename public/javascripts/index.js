@@ -6,7 +6,14 @@ Ext.setup({
         width: 340,
         height: 210,
         cls: 'panel-1',
-        html: 'Panel'
+        html: 'Panel',
+        dockedItems: [{
+          dock: 'right',
+          width: 130,
+          height: 210,
+          cls: 'panel-2',
+          html: 'Inner panel',
+        }]
       }]
     });
   }
