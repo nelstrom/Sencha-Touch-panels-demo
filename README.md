@@ -1,5 +1,7 @@
 This Git repository includes all of the source code used in creating a tutorial about [panels in Sencha Touch][tutorial].
 
+<iframe src="http://player.vimeo.com/video/15879797?title=0&amp;byline=0&amp;portrait=0" width="800" height="600" frameborder="0"></iframe>
+
 Each of the links below represents a snapshot of the code at a point in the video (timestamps are in brackets). You'll find instructions below on how to check out each snapshot from this git repository.
 
 * [Blank slate][00] (0:55)
