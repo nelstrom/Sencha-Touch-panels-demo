@@ -13,7 +13,7 @@ Checkpoints and assets:
 * [2 Docked items: right/bottom][01e] (2:28)
 * [2 Docked items: bottom/bottom][01f] (2:38)
 
-#02 Nesting docked items
+#02 Nesting docked items (golden spiral)
 
 * [Panel with dimensions][02a] (3:05)
 * [Nested: right][02b] (3:15)
