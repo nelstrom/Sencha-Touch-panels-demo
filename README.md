@@ -15,11 +15,11 @@ Checkpoints and assets:
 
 #02 Nesting docked items
 
-* Panel with dimensions (3:05)
-* Nested: right (3:15)
-* Nested: right/top (3:37)
-* 6*Nested (3:50)
-* 6*Nested + bevel (4:16)
+* [Panel with dimensions][02a] (3:05)
+* [Nested: right][02b] (3:15)
+* [Nested: right/top][02c] (3:37)
+* [6*Nested][02d] (3:50)
+* [6*Nested + bevel][02e] (4:16)
 
 #03 Generated golden spiral
 
@@ -50,3 +50,9 @@ Link to API documentation for methods:
 [01d]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/01d_docked_items
 [01e]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/01e_docked_items
 [01f]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/01f_docked_items
+
+[02a]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/02a_nesting_docked_items
+[02b]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/02b_nesting_docked_items
+[02c]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/02c_nesting_docked_items
+[02d]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/02d_nesting_docked_items
+[02e]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/02e_nesting_docked_items
