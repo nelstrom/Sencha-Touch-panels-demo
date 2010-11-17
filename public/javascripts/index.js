@@ -6,7 +6,7 @@ Ext.setup({
           items: [],
           dockedItems: [
             {
-                dock: "right",
+                dock: "bottom",
                 html: "Another docked item",
                 style: "background-color: #caa;"
             },
