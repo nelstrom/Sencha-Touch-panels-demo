@@ -4,6 +4,7 @@ Checkpoints and assets:
 
 * Inheritance from Panel
 * Blank slate (0:55)
+
 * Items and DockedItems (1:12)
 * Docked item: default (1:29)
 * Docked item: top (1:47)
@@ -11,6 +12,7 @@ Checkpoints and assets:
 * 2 Docked items: bottom/right (2:12)
 * 2 Docked items: bottom/right (2:28)
 * 2 Docked items: bottom/right (2:38)
+
 * Panel with dimensions (3:05)
 * Nested: right (3:15)
 * Nested: right/top (3:37)
@@ -23,9 +25,11 @@ Checkpoints and assets:
 
 Link to API documentation for methods:
 
-* addDocked()
-* insertDocked()
-* removeDocked()
-
+* [addDocked()][add]
+* [insertDocked()][ins]
+* [removeDocked()][rm]
 
 [tutorial]: http://vimeo.com/15879797
+[add]: http://dev.sencha.com/deploy/touch/docs/?class=Ext.Panel&member=addDocked
+[ins]: http://dev.sencha.com/deploy/touch/docs/?class=Ext.Panel&member=insertDocked
+[rm]:  http://dev.sencha.com/deploy/touch/docs/?class=Ext.Panel&member=removeDocked
