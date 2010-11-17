@@ -13,6 +13,13 @@ Ext.setup({
           height: 210,
           cls: 'panel-2',
           html: 'Inner panel',
+          dockedItems: [{
+            dock: 'top',
+            width: 130,
+            height: 80,
+            cls: 'panel-3',
+            html: 'Innermost panel',
+          }]
         }]
       }]
     });
