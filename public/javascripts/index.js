@@ -4,7 +4,12 @@ Ext.setup({
           fullscreen: true,
           style: "background-color: #fee",
           items: [],
-          dockedItems: []
+          dockedItems: [
+            {
+                html: "A docked item",
+                style: "background-color: #fcc;"
+            }
+          ]
       })
   }
 });
