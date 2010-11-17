@@ -13,7 +13,7 @@ for (var i=0; i <= dimensions.length; i++) {
   });
 }
 
-// Dock each panel inside the previous one (Russian dolls)
+// Dock each panel inside predecessor (Russian dolls!)
 for (var i=0; i < dimensions.length; i++) {
   innerPanels[i].addDocked(innerPanels[i+1]);
 }
