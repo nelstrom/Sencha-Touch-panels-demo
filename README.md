@@ -28,7 +28,7 @@ Link to API documentation for methods:
 * [insertDocked()][ins]
 * [removeDocked()][rm]
 
-<img src="https://github.com/nelstrom/Sencha-Touch-panels-demo/raw/master/assets/Panel-subclasses.png" width="606" height="476">
+<img src="https://github.com/nelstrom/Sencha-Touch-panels-demo/raw/master/assets/Panel-subclasses.png" width="900"/>
 
 [tutorial]: http://vimeo.com/15879797
 [add]: http://dev.sencha.com/deploy/touch/docs/?class=Ext.Panel&member=addDocked
