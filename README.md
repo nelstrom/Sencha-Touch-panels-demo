@@ -51,20 +51,20 @@ Change into the directory:
 
 By default, the git clone command will only create the master branch locally. If you want to study the code at each checkpoint, you will have to fetch each of the other branches. You can do so by running the following:
 
-    git checkout -b 00_blank_slate
-    git checkout -b 01a_docked_items
-    git checkout -b 01b_docked_items
-    git checkout -b 01c_docked_items
-    git checkout -b 01d_docked_items
-    git checkout -b 01e_docked_items
-    git checkout -b 01f_docked_items
-    git checkout -b 02a_nesting_docked_items
-    git checkout -b 02b_nesting_docked_items
-    git checkout -b 02c_nesting_docked_items
-    git checkout -b 02d_nesting_docked_items
-    git checkout -b 02e_nesting_docked_items
-    git checkout -b 03_generated_golden_spiral
-    git checkout -b 04_docked_toolbar
+    git checkout -b 00_blank_slate origin/00_blank_slate
+    git checkout -b 01a_docked_items origin/01a_docked_items
+    git checkout -b 01b_docked_items origin/01b_docked_items
+    git checkout -b 01c_docked_items origin/01c_docked_items
+    git checkout -b 01d_docked_items origin/01d_docked_items
+    git checkout -b 01e_docked_items origin/01e_docked_items
+    git checkout -b 01f_docked_items origin/01f_docked_items
+    git checkout -b 02a_nesting_docked_items origin/02a_nesting_docked_items
+    git checkout -b 02b_nesting_docked_items origin/02b_nesting_docked_items
+    git checkout -b 02c_nesting_docked_items origin/02c_nesting_docked_items
+    git checkout -b 02d_nesting_docked_items origin/02d_nesting_docked_items
+    git checkout -b 02e_nesting_docked_items origin/02e_nesting_docked_items
+    git checkout -b 03_generated_golden_spiral origin/03_generated_golden_spiral
+    git checkout -b 04_docked_toolbar origin/04_docked_toolbar
 
 You can review the list of local branches by running:
 
